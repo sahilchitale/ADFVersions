@@ -218,7 +218,7 @@
 						"typeProperties": {
 							"source": {
 								"type": "AzureSqlSource",
-								"sqlReaderQuery": "select count(*) from saleslt.customer",
+								"sqlReaderQuery": "select count(*) from saleslt.product",
 								"queryTimeout": "02:00:00",
 								"partitionOption": "None"
 							},
